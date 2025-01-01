@@ -7,6 +7,10 @@ by just using the name of the project directory.
 Original idea and code by Jan De Poorter ([@DefV](https://github.com/DefV))
 Source: https://gist.github.com/pjaspers/368394#gistcomment-1016
 
+Fork by [Rémino Rem](https://remino.net/) from
+[Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pj) allowing
+substring & case-insensitive matching of project names.
+
 ## Usage
 
 1. Enable the `pj` plugin:

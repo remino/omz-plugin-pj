@@ -28,7 +28,7 @@ _pj () {
     projects+=(${basedir}/*(/N))
   done
 
-  compadd ${projects:t}
+  compadd -M 'm:{a-zA-Z}={A-Za-z} l:|=* r:|=*' -- ${projects:t}
 }
 
 compdef _pj pj
