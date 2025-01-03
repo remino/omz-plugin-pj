@@ -1,4 +1,4 @@
-# pj
+# omz-plugin-pj
 
 The `pj` plugin (short for `Project Jump`) allows you to define several
 folders where you store your projects, so that you can jump there directly
