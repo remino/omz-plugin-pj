@@ -11,9 +11,26 @@ Fork by [Rémino Rem](https://remino.net/) from
 [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pj) allowing
 substring & case-insensitive matching of project names.
 
+## Installation
+
+First, clone the repo:
+
+```sh
+git clone https://github.com/remino/omz-plugin-pj.git "$ZSH_CUSTOM/plugins/pj"
+```
+
+Second, add `git-aliases` to your Oh My Zsh plugins:
+
+```
+# ~/.zshrc
+plugins+=(pj)
+```
+
+Last, restart your shell.
+
 ## Usage
 
-1. Enable the `pj` plugin:
+1. Ensure you included the `pj` plugin:
 
    ```zsh
    plugins=(... pj)
